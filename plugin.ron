@@ -1,0 +1,13 @@
+(
+    name: "StackoverFlow",
+    description: "Search Stackoverflow posts",
+    bin: (
+        path: "pop-launcher-stackoverflow",
+    ),
+    icon: Name("stackoverflow"),
+    query: (
+        isolate: true,
+        regex: "^(stk )+",
+        help: "stk ",
+    )
+)
