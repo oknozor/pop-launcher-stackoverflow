@@ -9,5 +9,5 @@
         isolate: true,
         regex: "^(stk )+",
         help: "stk ",
-    )
+    ),
 )
